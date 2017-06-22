@@ -10,7 +10,7 @@
 namespace Procedure_Store {
     
     
-    public partial class Index {
+    public partial class RecorridoFechaRango {
         
         /// <summary>
         /// Control form1.
@@ -22,75 +22,48 @@ namespace Procedure_Store {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Control ButtonGetInfoTruckById.
+        /// Control CalendarDesde.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonGetInfoTruckById;
+        protected global::System.Web.UI.WebControls.Calendar CalendarDesde;
         
         /// <summary>
-        /// Control ButtonGetInfoWay.
+        /// Control CalendarHasta.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonGetInfoWay;
+        protected global::System.Web.UI.WebControls.Calendar CalendarHasta;
         
         /// <summary>
-        /// Control ButtonGetNumberDrivers.
+        /// Control ButtonDesplegar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonGetNumberDrivers;
+        protected global::System.Web.UI.WebControls.Button ButtonDesplegar;
         
         /// <summary>
-        /// Control ButtonGetNumberTrucks.
+        /// Control GridView1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonGetNumberTrucks;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
         
         /// <summary>
-        /// Control ButtonGetSpendTruck.
+        /// Control HyperLink1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonGetSpendTruck;
-        
-        /// <summary>
-        /// Control ButtonGetWayByIdTruckAndDate.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonGetWayByIdTruckAndDate;
-        
-        /// <summary>
-        /// Control ButtonGetWaysDriverByIdDriver.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonGetWaysDriverByIdDriver;
-        
-        /// <summary>
-        /// Control ButtonGetWayByOnlyDateOrRange.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonGetWayByOnlyDateOrRange;
+        protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
     }
 }

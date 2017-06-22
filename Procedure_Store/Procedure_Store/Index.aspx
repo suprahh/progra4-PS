@@ -17,7 +17,7 @@
             <div><asp:Button ID="ButtonGetSpendTruck" runat="server" Text="Cuanto gastan los camiones" OnClick="ButtonGetSpendTruck_Click" /></div>
             <div><asp:Button ID="ButtonGetWayByIdTruckAndDate" runat="server" Text="Recorridos camiones por fecha" OnClick="ButtonGetWayByIdTruckAndDate_Click" /></div>
             <div><asp:Button ID="ButtonGetWaysDriverByIdDriver" runat="server" Text="Recorrido de choferes" OnClick="ButtonGetWaysDriverByIdDriver_Click" style="height: 26px" /></div>
-
+            <div><asp:Button ID="ButtonGetWayByOnlyDateOrRange" runat="server" Text="Recorrido por fecha o rango" OnClick="ButtonGetWayByOnlyDateOrRange_Click" /></div>
         </div>
     </form>
 </body>

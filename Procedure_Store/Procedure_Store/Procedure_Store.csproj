@@ -82,6 +82,7 @@
     <Content Include="NumeroChoferes.aspx" />
     <Content Include="RecorridoCamione.aspx" />
     <Content Include="RecorridoChoferes.aspx" />
+    <Content Include="RecorridoFechaRango.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -142,6 +143,13 @@
     </Compile>
     <Compile Include="RecorridoChoferes.aspx.designer.cs">
       <DependentUpon>RecorridoChoferes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RecorridoFechaRango.aspx.cs">
+      <DependentUpon>RecorridoFechaRango.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RecorridoFechaRango.aspx.designer.cs">
+      <DependentUpon>RecorridoFechaRango.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

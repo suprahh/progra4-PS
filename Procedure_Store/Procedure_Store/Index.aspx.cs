@@ -48,5 +48,10 @@ namespace Procedure_Store
         {
             Response.Redirect("~/RecorridoChoferes.aspx");
         }
+
+        protected void ButtonGetWayByOnlyDateOrRange_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/RecorridoFechaRango.aspx");
+        }
     }
 }
